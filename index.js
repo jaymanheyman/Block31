@@ -6,7 +6,7 @@ const pets = require('./data');
 const express = require('express');
 const app = express();
 
-const PORT = 3000; //changed the port to 3000, 8080 was not loading 
+const PORT = 8080; 
 
 //middleware
 app.use(express.static('public'))
